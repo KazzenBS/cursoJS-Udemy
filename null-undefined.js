@@ -14,3 +14,4 @@ console.log(aluno)//objeto
 aluno=null
 console.log(aluno)//null - sem posição de memoria como referencia
 
+console.log(c)
