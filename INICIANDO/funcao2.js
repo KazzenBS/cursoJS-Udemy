@@ -1,5 +1,5 @@
 //armazenar funcao em variavel
-const imprimirSoma = function (a,b) {
+const imprimirSoma = function (a,b) { //funcao anonima
     console.log(a+b)
 }
 imprimirSoma(2,3)
@@ -12,7 +12,7 @@ const soma = (a,b)=>{
 
 console.log(soma(2,3))
 
-//retorno implicito
+//retorno implicito, so é possivel usar em uma linha
 const Soma=(a,b)=>a+b
 console.log(Soma(2,4))
 
