@@ -18,7 +18,7 @@ Caso fosse extratir de um array seriam um part de conchetes []*/
 console.log(nome, idade)
 
 const{nome:n, idade:i} = pessoa /* muda o nome de da variavel*/
-
+console.log(n)
 const{sobrenome, bemHumorada=true} = pessoa
 console.log(sobrenome, bemHumorada)
 
