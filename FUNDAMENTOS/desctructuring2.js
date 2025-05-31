@@ -24,3 +24,4 @@ ignora o primeiro elemento do array, que no caso
 baseado no segundo elemento, entao
 nota =6
 */
+
