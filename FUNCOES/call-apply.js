@@ -11,12 +11,12 @@ const produto = {
 
 global.preco = 20
 global.desc = 0.1
-console.log(getPreco())//chamada direta
+console.log(getPreco())//chamada direta global
 console.log(produto.getPreco())//chamada com objeto
 
 const carro = {preco:49000, desc : 0.2}
 console.log(getPreco.call(carro))
 console.log(getPreco.apply (carro))
 
-console.log(getPreco.call(carro, 0.17, '$'))
+console.log(getPreco.call(carro, 0.17, '$'))//obj é o contexto e depois os parametros de getpreço
 console.log(getPreco.apply(global, [0.17,'$']))//parametros no array
